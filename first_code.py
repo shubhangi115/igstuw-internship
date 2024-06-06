@@ -87,7 +87,7 @@
 # import math as mt #mt as alias name for math
 # print(mt.factorial(5))
 # print(mt.pi)
-# print(mt.log10(10000000))
+# print(mt.log10(10000000)) 
 # print(mt.pow(2,3))  #2^3=2*2*2
 
 # SEQUENCE DATA -->> LIST, TUPLE AND STRING
