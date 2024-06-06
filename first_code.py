@@ -83,7 +83,7 @@
 #mathmatical calculation
 
 # Aliases means nick names
-import math as mt #mt as alias name for math
+# import math as mt #mt as alias name for math
 # print(mt.factorial(5))
 # print(mt.pi)
 # print(mt.log10(10000000))
