@@ -12,7 +12,8 @@
 #sample file here is a file object for writing
 
 # samplefile=open(r'C:\Users\i5\OneDrive\Desktop\demo file\demo.txt','w')
-# # there are two modes to open a file - "r " for reading and "w " for writing "a" for append
+
+#  there are two modes to open a file - "r " for reading and "w " for writing "a" for append
 # print(7,9,8,10, sep='%', end='$$', file =samplefile)
 
 # output formatting sor string
