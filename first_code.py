@@ -116,3 +116,65 @@
 #       "hello" \
 #       "meow"
 # print(str)
+# slicing syntax
+#  str[starting_index_pos:stop_index_pos:No. of moves or jump]
+#"Hello all"
+#str[1:5]
+
+
+# str1 = "Hello all"
+# # Negative slicing
+# print(str1[-5:-1])
+# print(str1[-1:-5])
+# print(str1[-7::2])
+# print(str1[::-1])
+
+
+
+
+#String Comparison
+
+#>,<,== -> to check for equality
+# str1 = "Hello"
+# str2 = "hello"
+# print(str1 == str2)
+# print(str1>str2)
+# print(str1> str2)
+
+#Ascii codes
+#A-Z = 65 to 90
+#a-z =97-122
+#ord() -> gives ascii value of char
+#chr() -> gives corresponding chars for a given ascii code
+# print(ord("H"))
+# print(ord("h"))
+# print(chr(65))
+# (print(chr(97)))
+
+#String repeatition
+ #* operator to reapeat string multiple times
+
+# str1 = "Hello"
+# print(str1*2) 
+# print(str1*5)
+
+# #concatenation operator
+# str1 = "Hello"
+# str2 = " "
+# str3 = "All"
+# print(str1+str2+str3)
+
+# #Find length or number 
+# str1 ="Hello all"
+# print("The no. of characters in string are :",len(str1))
+
+d = {'a': 1, 'b': 2}
+print(d.update({'b': 3, 'c': 4}))
+
+
+
+
+
+
+
+
