@@ -110,5 +110,5 @@
 # print(tup1[2])
 # print(tup1[3][1])
 
-H=len([1, 2, 3])
-print(H)
+# H=len([1, 2, 3])
+# print(H)
