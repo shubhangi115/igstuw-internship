@@ -112,3 +112,7 @@
 
 # H=len([1, 2, 3])
 # print(H)
+# str = "hello" \
+#       "hello" \
+#       "meow"
+# print(str)
