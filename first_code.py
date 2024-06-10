@@ -389,11 +389,56 @@
 # no slicing and indexing
 
 # creating set()
-set1={1,2,3,True,11.55,"hello",4+6j,1,1,1,2,2}  
-print("set: ",set1)
+# set1={1,2,3,True,11.55,"hello",4+6j,1,1,1,2,2}  
+# print("set: ",set1)
 
 #empty set
-set2=set()
-print("the empty set is: ",set2,"type of set: ",type(set2))
-set3={}
-print("the empty set is: ",set2,"type of set: ",type(set3))
+# set2=set()
+# print("the empty set is: ",set2,"type of set: ",type(set2))
+# set3={}  # this is dictionary as dictionary also include {}
+# print("the empty set is: ",set2,"type of set: ",type(set3))
+
+# set is mutable
+# add() ---->> to add new element
+# set1={1,2,3,4,5,6,7,8}
+# print("original: ",set1)
+# set1.add(55)
+# print("updated: ",set1)
+# set1.add(100)
+# print("updated: ",set1)
+# set1.add(515)
+# print("updated: ",set1)
+
+# update() --->> to add elements from another list of tuple in a set
+
+# set1={1,2,3,4,5,6,7,8}
+# print("original: ",set1)
+# list1=[11,12,13,14,15]
+# set1.update(list1)
+# print("updated set: ",set1)
+# tup1=(1,2,3,4,100)
+# set1.update(tup1)
+# print("updated set: ",set1)
+# set2={1000,1003}
+# set1.update(set2)
+# print("updated: ",set1)
+
+# remove values from set
+# set1={1,2,3,4,5,6,7,8}
+# print("original: ",set1)
+# remove() ----->> removes particular value from set and throw error if value not found or when value is removed once
+# set1.remove(5)    # if you give repeated value in set python will not consider repeated value
+# print("updated: ",set1)
+# set1.discard(5)   # whereas discard will not throw error even value is removed once
+# print("updated: ",set1)
+# set1.discard(5)
+# print("updated: ",set1)
+
+# set2={True,False,1,"Hello"}
+# print(set2) 
+"""Ma'am this command returns True instead of 1
+It give output {False, True, 'Hello'}
+
+since set is specifically unpredictable only when value is boolean or 0,1"""
+
+# set is used in mathematical operations.......union,intersection,difference
