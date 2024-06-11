@@ -442,3 +442,106 @@ It give output {False, True, 'Hello'}
 since set is specifically unpredictable only when value is boolean or 0,1"""
 
 # set is used in mathematical operations.......union,intersection,difference
+
+# builtin methods of sets
+# all() --->> checks for the true set of boolean values
+# this method is also applicable for list and tuple
+# set1={True,True,True}   # 1---->true   0--->false
+# res=all(set1)
+# print("result is: ",res)
+
+# any() -----> returns true if atleat 1 value in an iterable is true
+# set1={True,True,False}
+# res=any(set1)
+# print("result is: ",res)
+
+# len() --->length of set
+# set1={1,2,3,4,"hello",11.45}   
+# res=len(set1)
+# print("result is: ",res)
+
+# set2={True,True,False,1,1,0,0}   # since sets considers dupliacte values as 1 and it will take 1 and true as same
+# res=len(set1)
+# print("result is: ",res)
+
+# max() and min()
+# generic function it is used in any data type
+# set1={1,2,4,5,6,7,-11,-22}
+# res=min(set1)
+# print("min: ",res)
+
+# set1={1,2,4,5,6,7,-11,-22}
+# res=max(set1)
+# print("max ",res)
+
+# sum() ----> adding elements,,,,for all datatypes
+# set1={1,2,4,5,6,7}
+# res=sum(set1)
+# print("the sum result is: ",res)
+
+# mathematical set operations
+# union,intersection,symetric difference, subtraction
+# union --->> cobines unique elements from set A and B
+# union() and | operator -->> pip operator
+# set1={1,2,3,4,5}
+# set2={5,6,7,8,9}
+# print("using union(): ", set1.union(set2))
+# print("using |: ", set1 |set2)
+
+# intersection : takes common elements
+# intersection () and & operator
+# set1={1,2,3,4,5}
+# set2={5,6,7,8,9}
+# print("using intersection(): ", set1.intersection(set2))
+# print("using &: ", set1&set2)
+
+#difference() ----> A-B ---> subtracts common element
+# difference() and - operator
+# set1={1,2,3,4,5,6}
+# set2={5,6,7,8,9}
+# print("using difference(): ", set1.difference(set2))
+# print("using -: ", set1-set2)
+# print("original set1 ",set1)
+# print("original set2 ",set2)
+# in-place ---- if original memory of set are changed
+# --->> intersection_update(), union_update(), difference_update()
+# out of place ---- at temporary location
+
+#in-place 
+
+# set1={1,2,3,4,5,6}
+# set2={5,6,7,8,9}
+# print("original set1 ",set1)
+# print("original set2 ",set2)
+# set1.intersection_update(set2)
+# print("the updated set1: ", set1)
+# print("the updated set2: ", set2)
+
+# difference update
+# set1={1,2,3,4,5,6}
+# set2={5,6,7,8,9}
+# print("original set1 ",set1)
+# print("original set2 ",set2)
+# set1.difference_update(set2)
+# print("the updated set1: ", set1)
+# print("the updated set2: ", set2)
+
+# update().......for combining two sets like union
+
+# symmetric diffrence ----->> returns all the values present in given set data structure except common values
+# set1={1,2,3,4,5,6}
+# set2={5,6,7,8,9}
+# print("original set1 ",set1)
+# print("original set2 ",set2)
+# print("the result of symmetric difference: ",set1.symmetric_difference(set2))
+# print("the updated set1: ", set1)
+# print("the updated set2: ", set2)
+
+# symmetric_difference_update---->> in-place
+# set1={1,2,3,4,5,6}
+# set2={5,6,7,8,9}
+# print("original set1 ",set1)
+# print("original set2 ",set2)
+# print("the result of symmetric difference update: ",set1.symmetric_difference_update(set2))
+# print("the updated set1: ", set1)
+# print("the updated set2: ", set2)
