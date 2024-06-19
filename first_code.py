@@ -545,3 +545,9 @@ since set is specifically unpredictable only when value is boolean or 0,1"""
 # print("the result of symmetric difference update: ",set1.symmetric_difference_update(set2))
 # print("the updated set1: ", set1)
 # print("the updated set2: ", set2)
+
+
+
+
+
+# AI-ML
