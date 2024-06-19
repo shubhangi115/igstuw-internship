@@ -1,0 +1,4 @@
+empid|empname|salary|department
+101|Ajay|1000000000|marketing
+102|Reema|2000000000|production
+103|Reema|3000000000|production
