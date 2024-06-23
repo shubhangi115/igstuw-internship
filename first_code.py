@@ -110,6 +110,46 @@
 # print(tup1[2])
 # print(tup1[3][1])
 
+#immutability
+# list1=[1,2,3,"hello","bye",122.77,True,False,"Go"]
+# tup1=(1,2,3,"hello","bye",122.77)
+#try to modify last element of list from "Go" to "Gonow"
+# print("original list: ",list1)
+# list1[-1]="Gonow"
+# print(list1)
+#list are mutable
+
+# tup1[-1]=100
+# print(tup1)
+# immutability of tuple
+
+# dictionary 
+# set
+# these are the data types that do not have any index or positions
+
+# create a dictionary 
+# mutable-----> only values
+# braces brackets
+# values are in form of key:value pairs
+# each value is recognised by key
+# keys should be different as they are differentiater and values can be same
+
+# dict={"Name":"Ajay","Age":20, "Salary":10000, "House":20}
+# print(dict["Age"])
+# print(dict.keys())
+# print(dict.values())
+# print(dict.items())
+# dict["Age"]=25
+# print(dict)
+# dict["degree"]="B.tech"
+# print(dict)
+
+# sets 
+# used with {}
+# No duplicates elements allowed
+set={1,2,3,3,4,5,6,6,6,7,8,8,9,9,9,9,9,}
+print(set)
+
 # H=len([1, 2, 3])
 # print(H)
 # str = "hello" \

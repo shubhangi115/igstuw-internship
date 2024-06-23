@@ -21,13 +21,24 @@
 
 # write with loop
 
-import csv
-data_list=[
-    ["empid","empname","salary","department"],
-    [101,"Ajay",1000000000,"marketing"],
-    [102,"Reema", 2000000000,"production"],
-    [103,"Reema", 3000000000,"production"],
-]
-with open('secondfile.cs', 'w', newline='') as file:
-    writer = csv.writer (file,delimiter='|')
-    writer.writerows(data_list)
+# import csv
+# data_list=[
+#     ["empid","empname","salary","department"],
+#     [101,"Ajay",1000000000,"marketing"],
+#     [102,"Reema", 2000000000,"production"],
+#     [103,"Reema", 3000000000,"production"],
+# ]
+# with open('secondfile.cs', 'w', newline='') as file:
+#     writer = csv.writer (file,delimiter='|')
+#     writer.writerows(data_list)
+
+# import csv
+# data_list=[
+#     ["empid","empname","salary","department"],
+#     [101,"Ajay",1000000000,"marketing"],
+#     [102,"Reema", 2000000000,"production"],
+#     [103,"Reema", 3000000000,"production"],
+# ]
+# with open(r'C:/Users/i5/OneDrive/Desktop/file handling file', 'w', newline='') as file:
+#     writer = csv.writer (file,delimiter='|')
+#     writer.writerows(data_list)
