@@ -12,6 +12,9 @@
 #octal -->> 0o or 0B
 #hexadecimal -->> 0x or 0X
 
+# Floating point numbers
+# complex number
+
 # print(0b101)
 # print(0o156)
 # print(oxAFB) # 0 to 9 10-A,11-B.....15-F

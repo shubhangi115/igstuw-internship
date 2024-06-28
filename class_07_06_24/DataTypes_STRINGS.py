@@ -153,7 +153,7 @@ syntax: split(separator '', max number of split)
 
 6. to remove spaces from text string specific leading and trailing
 strip()
-"""
+
 str1="    hello    all     in the class     "
 print(str1.strip()) 
 
@@ -163,7 +163,7 @@ print(str1.lstrip())
 # remove space form last
 print(str1.rstrip()) 
 
-# """
+"""
 
 
 
