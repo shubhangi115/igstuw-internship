@@ -1,0 +1,3 @@
+tup1=(1,2,3,"hello",11.55,"hello","Hello")
+print("original tup1: ",tup1)
+print("count of hello: ",tup1.count("hello"))
