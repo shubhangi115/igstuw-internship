@@ -77,7 +77,7 @@ QUES. HOW TO CREATE OUR OWN USER-DEFINED EXCEPTION
 --> CREATE A NEW USER CLASS WHICH IS DERIVED FRO EXCEPTION CLASS
 For eg: create exception for retired senoir citizen candidates"""
 
-class InvalidAgeCalException(Exception):  # "Exception" is parent class....sabko dada
+class InvalidAgeCalException(Exception):  # "Exception" is parent class....sabka dada
     pass
 age=int(input("enter a relavant age for retired employee:"))
 try:

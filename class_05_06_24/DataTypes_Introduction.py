@@ -12,7 +12,7 @@
 #octal -->> 0o or 0B
 #hexadecimal -->> 0x or 0X
 
-# Floating point numbers
+# Floating point numbers -> python default data type is float
 # complex number
 
 # print(0b101)
